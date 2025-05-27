@@ -26,6 +26,12 @@ public class JdbcClubRepository implements ClubRepository {
         return allClubs;
     }
 
+//    @Override
+//    public void update(Club updatedClub) {
+//        String updateSql = "UPDATE CLUB SET NAME = '" + updatedClub.getName() + "' WHERE ID = " + updatedClub.getId();
+//        jdbcTemplate.execute(updateSql);
+//    }
+
     @Override
     public void update(Club updatedClub) {
 
